@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".detaylariGoster">
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:ignore="MissingConstraints">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/toolbardetay"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#CFD8DC"
+                android:minHeight="?attr/actionBarSize"
+                android:theme="?attr/actionBarTheme" />
+
+            <Button
+                android:id="@+id/takvim2"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@drawable/takvim" />
+            <EditText
+                android:id="@+id/edittextsaat2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="300dp"
+                android:layout_marginTop="-50dp"
+                android:text="10.00"
+                android:textColor="#212121"
+                android:visibility="invisible"
+                android:textSize="20dp"/>
+
+
+            <EditText
+                android:id="@+id/edittexttarih2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="70dp"
+                android:layout_marginTop="-50dp"
+                android:text="03.03.2000" />
+
+            <EditText
+                android:id="@+id/edittextbaslik2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="#212121"
+                android:textStyle="bold"
+                android:layout_marginTop="50dp"
+                android:hint="Notlarınızın Başlık ekleyiniz"
+                android:textSize="20dp" />
+
+
+            <EditText
+                android:id="@+id/editextyazi2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@color/black"
+                android:layout_marginTop="10dp"
+                android:hint="Notlarınızı yazınız " />
+
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

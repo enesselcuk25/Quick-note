@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/action_sil"
+        android:icon="@drawable/delete"
+        app:showAsAction="always|collapseActionView" />
+    <item
+        android:id="@+id/action_duzenle"
+        android:icon="@drawable/guncelle"
+        app:showAsAction="always|collapseActionView" />
+</menu>
